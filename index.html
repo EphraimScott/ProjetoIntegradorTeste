@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnemBoost</title>
+    <style>
+        * {
+           box-sizing: border-box; 
+        }
+
+        body {
+            margin: 0;
+            padding: 10px;
+            background: #b6b5b5cc;
+        }
+        .header {
+
+            background-color: #878386;
+            padding: 1px;
+            text-align: left;
+        }
+
+        .topnav {
+            overflow:hidden;
+            background-color:#333;
+        }
+        .topnav a{
+            float:left;
+            display:block;
+            color:#f2f2f2;
+            text-align:left;
+            padding: 5px 50px;
+            text-decoration: none;
+        }
+        .topnav a:hover{
+            background-color: #ddd;
+            color:black;
+        }
+        .column {
+            float:left;
+        }
+        .column.left {
+            float:left;
+            width: 75%;
+        }
+
+        .fakeimg {
+            background-color: #858585;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .column.right {
+            width: 25%;
+            background-color: #c5c5c5cc;
+            padding-left: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column.left, .column.right{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">PlaceHolder</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="#">Videoaulas</a>
+        <a href="#">Forum</a>
+        <a href="#">Sobre Nós</a>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <div class="card">
+              <h2>Cursos disponiveis</h2>
+              <div class="fakeimg" style="height: 200px;"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, 
+                eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. 
+                Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column right">
+            <div class="card">
+            <h2>Texto adicional</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, 
+                eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>    
+        </div>
+    </div>
+
+</body>
+</html>
